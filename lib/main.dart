@@ -1,4 +1,7 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:voges_updater/voges_updater.dart'
+    show UpdateCheck, UpdaterRequest, runUpdater, vogesPencil;
 import 'package:window_manager/window_manager.dart';
 
 import 'app.dart';
@@ -19,6 +22,18 @@ const _startWidth = 1280, _startHeight = 720;
 
 Future<void> main(List<String> arguments) async {
   WidgetsFlutterBinding.ensureInitialized();
+  // On Windows and Linux a copy of the app itself is the updater; on macOS
+  // the updater is a separate app, because this one is sandboxed.
+  if (!kIsWeb &&
+      UpdaterRequest.isUpdaterLaunch(arguments, defaultTargetPlatform.name)) {
+    final language = AppLanguage();
+    await language.load();
+    return runUpdater(
+      arguments: arguments,
+      host: vogesPencil,
+      locale: language.locale,
+    );
+  }
   if (isDesktopPlatform) {
     await windowManager.ensureInitialized();
     await windowManager.waitUntilReadyToShow(
@@ -58,6 +73,7 @@ Future<void> main(List<String> arguments) async {
       language: language,
       launchArguments: arguments,
       windowButtons: await WindowButtonsLayout.forPlatform(),
+      updates: isDesktopPlatform ? UpdateCheck.forPlatform(vogesPencil) : null,
     ),
   );
 }

@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Name=Voges Pencil
+GenericName=Paint program
+GenericName[pt]=Programa de desenho
+GenericName[pt_BR]=Programa de desenho
+GenericName[es]=Programa de dibujo
+Comment=Draw and edit PNG, JPEG, BMP and other images
+Comment[pt]=Desenhe e edite imagens PNG, JPEG, BMP e outras
+Comment[pt_BR]=Desenhe e edite imagens PNG, JPEG, BMP e outras
+Comment[es]=Dibuja y edita imágenes PNG, JPEG, BMP y otras
+Exec=voges-pencil %f
+Icon=com.omanoloneto.voges_pencil
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;
+MimeType=image/png;image/jpeg;image/bmp;image/x-bmp;image/gif;image/webp;image/tiff;image/vnd.microsoft.icon;image/x-icon;image/x-tga;image/x-targa;
+Keywords=paint;draw;drawing;image;picture;png;jpg;bmp;
+Keywords[pt]=paint;desenho;desenhar;imagem;figura;png;jpg;bmp;
+Keywords[pt_BR]=paint;desenho;desenhar;imagem;figura;png;jpg;bmp;
+Keywords[es]=paint;dibujo;dibujar;imagen;png;jpg;bmp;
+StartupWMClass=com.omanoloneto.voges_pencil
