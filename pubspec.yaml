@@ -43,7 +43,7 @@ dependencies:
     git:
       url: https://github.com/omanoloneto/voges-word.git
       path: packages/voges_updater
-      ref: 33ac45b776a164e5d0e57b6414f75a691c46845e
+      ref: 16c12476f07023a4acd152e9155f1fc2ece7833b
 
 dev_dependencies:
   flutter_test:
