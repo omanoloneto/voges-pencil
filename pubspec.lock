@@ -590,8 +590,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/voges_updater"
-      ref: "16c12476f07023a4acd152e9155f1fc2ece7833b"
-      resolved-ref: "16c12476f07023a4acd152e9155f1fc2ece7833b"
+      ref: "20239e88daa537934d6521bde9d2f3d0ef23af38"
+      resolved-ref: "20239e88daa537934d6521bde9d2f3d0ef23af38"
       url: "https://github.com/omanoloneto/voges-word.git"
     source: git
     version: "1.0.0+1"
