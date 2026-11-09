@@ -1,17 +1,9 @@
 Voges Pencil: a simple paint program, in the spirit of the classic Paint, for macOS, Windows and Linux. Part of the Voges suite, next to Voges Word.
 
-## What's in Voges Pencil 1.0.0
+## What's new in Voges Pencil 1.0.1
 
-- Pencil, brush, eraser, fill with color, color picker, line, rectangle and ellipse, from 1 to 48 px. Shapes can be outlined or filled, and Shift keeps lines at 45° steps and makes squares and circles.
-- Two colors: the left click paints with color 1, the right click with color 2. A palette of 20 colors, a swap button and an editor with red, green and blue sliders and a hex field.
-- Select an area to move, delete or crop it, or select everything; copy, cut and paste images, also from other apps.
-- Rotate, flip and resize the image, stretching the drawing or only changing the canvas.
-- Opens PNG, JPEG, BMP, GIF, WebP, TIFF, ICO and TGA; saves PNG (with transparency), JPEG and BMP. Formats it can't write are saved as a new PNG, never over the original.
-- Undo and redo for every change, and zoom from 5% to 3200% with sharp pixels from 100% up.
-- Warns before closing or opening another file with unsaved changes.
-- Shows up in "Open with" for every format it opens, without becoming the default app.
-- Interface in English, Portuguese and Spanish.
-- Checks for updates when it opens and installs them with Voges Updater.
+- Voges Updater now also offers the Voges apps you don't have yet, below the updates. They are never ticked for you: pick the ones you want, or follow the link to the app's page first.
+- Apps that join the suite from now on show up there without a new version of Voges Pencil. The updater reads them from a list on the Voges website, signed with the same key as the releases.
 
 ## Install
 
