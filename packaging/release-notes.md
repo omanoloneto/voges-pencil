@@ -1,9 +1,8 @@
 Voges Pencil: a simple paint program, in the spirit of the classic Paint, for macOS, Windows and Linux. Part of the Voges suite, next to Voges Word.
 
-## What's new in Voges Pencil 1.0.1
+## What's new in Voges Pencil 1.0.2
 
-- Voges Updater now also offers the Voges apps you don't have yet, below the updates. They are never ticked for you: pick the ones you want, or follow the link to the app's page first.
-- Apps that join the suite from now on show up there without a new version of Voges Pencil. The updater reads them from a list on the Voges website, signed with the same key as the releases.
+- **Linux:** the window shows the app's icon in Alt+Tab and in window lists.
 
 ## Install
 
